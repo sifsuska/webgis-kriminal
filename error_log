@@ -1,0 +1,60 @@
+[15-Mar-2018 04:40:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'masizhan_prj'@'localhost' (using password: NO) in /home/masizhan/public_html/petakrim/config/koneksi.php on line 5
+[06-May-2018 04:58:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/masizhan/public_html/petakrim/jumlah_kriminal.php on line 24
+[06-May-2018 04:58:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/masizhan/public_html/petakrim/titikrim-geojson.php on line 20
+[06-May-2018 04:58:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/masizhan/public_html/petakrim/jumlah_kriminal.php on line 24
+[06-May-2018 04:58:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/masizhan/public_html/petakrim/titikrim-geojson.php on line 20
+[06-May-2018 04:58:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/masizhan/public_html/petakrim/jumlah_kriminal.php on line 24
+[06-May-2018 04:58:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/masizhan/public_html/petakrim/titikrim-geojson.php on line 20
+[06-May-2018 04:59:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/masizhan/public_html/petakrim/titikrim-geojson.php on line 20
+[06-May-2018 13:54:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/masizhan/public_html/petakrim/laporan_pdf.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/masizhan/public_html/petakrim/laporan_pdf.php on line 86
+[06-May-2018 13:55:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/masizhan/public_html/petakrim/laporan_pdf.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/masizhan/public_html/petakrim/laporan_pdf.php on line 86
+[06-May-2018 13:55:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/masizhan/public_html/petakrim/laporan_pdf.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/masizhan/public_html/petakrim/laporan_pdf.php on line 86
+[06-May-2018 13:55:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/masizhan/public_html/petakrim/laporan_pdf.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/masizhan/public_html/petakrim/laporan_pdf.php on line 86
+[06-May-2018 13:55:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/masizhan/public_html/petakrim/laporan_pdf.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/masizhan/public_html/petakrim/laporan_pdf.php on line 86
+[06-May-2018 14:36:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/masizhan/public_html/petakrim/laporan_pdf.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/masizhan/public_html/petakrim/laporan_pdf.php on line 86
+[07-May-2018 10:48:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/masizhan/public_html/petakrim/laporan_pdf.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/masizhan/public_html/petakrim/laporan_pdf.php on line 86
+[07-May-2018 10:48:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Spipu\Html2Pdf\Html2Pdf' not found in /home/masizhan/public_html/petakrim/laporan_pdf.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/masizhan/public_html/petakrim/laporan_pdf.php on line 86
+[12-Jul-2018 15:09:22 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: DirectoryIterator::__construct(/home/masizhan/public_html/petakrim\assets\images\artikel): failed to open dir: No such file or directory in /home/masizhan/public_html/petakrim/form_profil.php:79
+Stack trace:
+#0 /home/masizhan/public_html/petakrim/form_profil.php(79): DirectoryIterator->__construct('/home/masizhan/...')
+#1 {main}
+  thrown in /home/masizhan/public_html/petakrim/form_profil.php on line 79
+[12-Jul-2018 15:24:44 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: DirectoryIterator::__construct(/home/masizhan/public_html/petakrim\assets\images\artikel): failed to open dir: No such file or directory in /home/masizhan/public_html/petakrim/form_profil.php:79
+Stack trace:
+#0 /home/masizhan/public_html/petakrim/form_profil.php(79): DirectoryIterator->__construct('/home/masizhan/...')
+#1 {main}
+  thrown in /home/masizhan/public_html/petakrim/form_profil.php on line 79
+[12-Jul-2018 15:29:11 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: DirectoryIterator::__construct(/home/masizhan/public_html/petakrim\assets\images\artikel): failed to open dir: No such file or directory in /home/masizhan/public_html/petakrim/form_profil.php:79
+Stack trace:
+#0 /home/masizhan/public_html/petakrim/form_profil.php(79): DirectoryIterator->__construct('/home/masizhan/...')
+#1 {main}
+  thrown in /home/masizhan/public_html/petakrim/form_profil.php on line 79
+[12-Jul-2018 15:32:31 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: DirectoryIterator::__construct(/home/masizhan/public_html/petakrim\assets\images\artikel): failed to open dir: No such file or directory in /home/masizhan/public_html/petakrim/form_profil.php:79
+Stack trace:
+#0 /home/masizhan/public_html/petakrim/form_profil.php(79): DirectoryIterator->__construct('/home/masizhan/...')
+#1 {main}
+  thrown in /home/masizhan/public_html/petakrim/form_profil.php on line 79

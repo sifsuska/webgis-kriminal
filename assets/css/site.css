@@ -1,0 +1,108 @@
+
+      @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+      
+      body {
+        font-family: 'Poppins', sans-serif;
+        background: #fafafa;
+      }
+    
+      .wrapper{
+        display: flex;
+        align-items: stretch;
+      }
+      #content{
+        padding: 20px;
+        min-height: 100vh;
+        min-width: 75vw;
+      }
+      #sidebar{
+        min-width: 250px;
+        max-width: 250px;
+        min-height: 100vh;
+        max-height: 100%;
+        background-color: #5a5a5a;
+        transition: 0.3s;
+      }
+      #sidebar-header{
+        padding: 15px;
+        color: #fafafa;
+      }
+      #sidebar.active{
+        margin-left: -250px;
+      }
+      #sidebar a {
+        color: #fff;
+        
+      }
+      ul.list-unstyled a{
+        padding:20px;
+      }
+      li.active{
+        background-color: #4f65ff;
+      }
+      li>a:hover{
+        background-color: #4f65ff;
+        transition: 0.3s;
+      }
+      
+      ul.list-unstyled>li>a{
+        display:block;
+        width:100%;
+        height:100%;
+      }
+      a[data-toggle="collapse"]{
+        position: relative;
+      }
+      a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+        content: '\e259';
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-family: 'Glyphicons Halflings';
+        font-size: 1em;
+      }
+      a[aria-expanded="true"]::before {
+        content: '\e260';
+      }
+      #sidebarCollapse{
+        margin: 20px;
+        background-color: #5a5a5a;
+        color: #4f65ff;
+        font-size: 2em;
+      }
+      #content-header-text{
+        font-size: 1.5em;
+        font-weight: 700;
+      }
+      .submenu{
+        background-color: #7a7a7a;
+        box-shadow: inset 0px 2px 2px 0px #404040;
+      }
+      
+      @media(max-width: 768px) {
+        #sidebar{
+          margin-left: -250px;
+        }
+        #sidebar.active{
+          margin-left: 0;
+        }
+      }
+      
+     .form-control {
+      box-shadow: 0px 2px 2px 0px #a9a9a9;
+      -webkit-box-shadow: 0px 2px 2px 0px #a9a9a9;
+     }
+     .panel-login>.panel-heading{
+       background-color: #4f65ff;
+       color: #fff;
+     }
+     .btn-login{
+       background-color: #4f65ff;
+       color: #fff;
+       transition: 0.3s;
+     }
+     .btn-login:hover{
+       color: #fff;
+       background-color: #3b4ab3;
+       transition: 0.3s;
+     }

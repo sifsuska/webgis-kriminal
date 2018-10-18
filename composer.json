@@ -1,0 +1,6 @@
+{
+    "require": {
+        "spipu/html2pdf": "^5.1",
+        "samayo/bulletproof": "4.0.*"
+    }
+}
